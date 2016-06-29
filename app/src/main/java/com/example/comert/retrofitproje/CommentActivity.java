@@ -100,7 +100,7 @@ public class CommentActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.users) {
+        if (id == R.id.comment) {
             // Handle the camera action
             Intent user = new Intent(CommentActivity.this,MainActivity.class);
             startActivity(user);
